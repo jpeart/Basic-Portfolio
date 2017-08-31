@@ -256,7 +256,17 @@
 	margin-left: 5%;
 }
 #footer{
-	position: fixed;
-	left: 0px;
-	bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    border-top: 1px solid #D3D3D3;
+    text-align: center;
+    overflow-y: auto;
+    z-index: 1000;
+    /* top: 325px; */
+    left: 0px;
+}
+.centered {
+  /*position: fixed;*/ /* or absolute */
+  pad-left: 15%;
 }
